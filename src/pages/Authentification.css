@@ -1,0 +1,10 @@
+* {
+    position: relative;
+
+}
+
+.auth_body {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
