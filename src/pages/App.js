@@ -1,6 +1,5 @@
 
-import XXX from '../components/XXX.js'
-import Authentification from './Authentification.js';
+import Header from '../components/Header.js'
 import './App.css'
 import { BrowserRouter as Router, Routes ,Route} from "react-router-dom";
 
@@ -8,15 +7,16 @@ function App() {
 
 
   return (
-    <Router>
-      <XXX />
-      <Routes>
-            <Route exact path="/" element={<Authentification />} />
-            <Route path="/xxx" element={<XXX />} />
-      </Routes>
-    </Router>
+    // <Router>
+       <Header />
+    //   <Routes>
+    //         <Route exact path="/" element={<Authentification />} />
+    //         <Route path="/xxx" element={<XXX />} />
+    //   </Routes>
+    // </Router>
     // <div className="App">
   );
 }
+// reusable componenet folder ( common ): main button, pop up modal, loader  
 
 export default App;
