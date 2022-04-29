@@ -37,3 +37,10 @@
     transform: rotate(360deg);
   }
 }
+.grText {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #83C9F4 0%, #8F79D9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
