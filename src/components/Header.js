@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitterSquare, FaLinkedin , FaUserAlt } from 'react-icon
 
 const Header = () => {
     return(
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border border-2">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm border border-2">
         <div class="container-fluid">
             <h1 className="nav-brand fs-3 text-end fw-bolder grText opacity-50 p-3">TA3AWONIYA</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

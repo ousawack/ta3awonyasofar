@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <div className="row p-5 bg-light text-dark">
+    <div className="row p-5 bg-light text-dark w-100">
         <div class="row col-md-9">
             <div class="col-md-4">
                 <h1 className="fs-2 fw-bold text-dark fheader my-3">Moroccoop</h1>
