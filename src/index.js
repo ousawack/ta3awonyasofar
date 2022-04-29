@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './pages/App';
 import './index.css'
+import 'flowbite';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 //import Authentification from './pages/Authentification'
 import reportWebVitals from './reportWebVitals';
 

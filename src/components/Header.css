@@ -1,0 +1,30 @@
+:root {
+    --alice-blue: #d9f0ff;
+    --baby-blue-eyes: #A3D5FF;
+    --light-sky-blue: #83C9F4;
+    --violet-blue-crayota: #6F73D2;
+    --glaucous: #7681B3;
+  }
+
+.join_us {
+    border-color: var(--violet-blue-crayota) !important;
+}
+.grText{
+    text-transform: uppercase;
+  background: linear-gradient(to right, #83C9F4 0%,#8F79D9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.socials {
+    display: inherit;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .socials {
+      display: none !important;
+    }
+  }
