@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import './Header.css'
-import { FaFacebookF, FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
+import { FaFacebookF, FaTwitterSquare, FaLinkedin , FaUserAlt } from 'react-icons/fa'
 
 
 const Header = () => {
@@ -29,13 +29,13 @@ const Header = () => {
                 <a class="nav-link" aria-current="page" href="#">Store</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Cooperatives</a>
+                <a class="nav-link" href="#">Cooperativess</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link " role="button">About Us</a>
                 </li>
                 <button className='nav-item btn border border-2 mx-1 mb-1 join_us'>Join Us</button>
-            <button className='nav-item btn btn-outline-secondary mx-1 mb-1'><FaLinkedin />Login</button>
+            <button className='nav-item btn btn-outline-secondary mx-1 mb-1'><FaUserAlt className='px-1' />Login</button>
             </ul>
             </div>
         </div>
