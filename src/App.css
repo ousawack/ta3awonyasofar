@@ -21,3 +21,14 @@
 .text-glaucous {
   color: var(--glaucous);
 }
+.text-small {
+  font-size: 10px !important;
+}
+.w-mc {
+  width: max-content !important;
+  height: auto;
+}
+
+img {
+  object-fit: cover;
+}

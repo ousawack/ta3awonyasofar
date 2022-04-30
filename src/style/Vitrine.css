@@ -1,0 +1,57 @@
+:root {
+    --alice-blue: #d9f0ff;
+    --baby-blue-eyes: #A3D5FF;
+    --light-sky-blue: #83C9F4;
+    --violet-blue-crayota: #6F73D2;
+    --glaucous: #7681B3;
+}
+
+.link{
+  text-decoration: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+.link :hover {
+  text-decoration: underline;
+  color: var(--light-sky-blue) !important;
+}
+.product-top img {
+  margin: auto;
+  max-width: 100%;
+  min-width: 118px;
+}
+
+
+.overlay {
+  position: relative;
+  transition: all .5s ease-in;
+}
+
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  transition: .9s ease;
+  background-color: #fff7ffa8;
+}
+
+
+.overlay:hover .card__overlay {
+  opacity: 1;
+}
