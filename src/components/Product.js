@@ -33,9 +33,9 @@ function Product() {
                 <FaStar color="rgb(230, 214, 96)"/>
                 <FaStar color="rgb(230, 214, 96)"/>
                 <a className='link' href="#">
-                <h3 className="fs-6 text-glaucous">Product Name</h3>
+                <h3 className="fs-6 my-2 text-glaucous">Product Name</h3>
                 </a>
-                <h5 className='text-small'>$20.00</h5>
+                <h5 className='text-small mt-3'>$20.00</h5>
             </div>
         </div>
     </div>
