@@ -1,8 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
-import {HiShoppingCart ,HiEye} from 'react-icons/hi'
-import {FaPlus ,FaStar } from 'react-icons/fa'
+import Breadcrumb from '../components/Breadcrumb'
 import Product from '../components/Product'
 import '../style/Vitrine.css'
 
@@ -10,13 +9,7 @@ function Vitrine() {
   return (
     <div>
         <div className="row container mx-auto my-4">
-            <nav aria-label="breadcrumb">
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item link">Home</li>
-                    <li className="breadcrumb-item link">Library</li>
-                    <li className="breadcrumb-item link active" aria-current="page">Data</li>
-                </ol>
-            </nav>
+            <Breadcrumb/>
             <Product/>
             <Product/>
             <Product/>

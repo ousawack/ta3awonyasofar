@@ -10,6 +10,10 @@
   background-color: var(--light-sky-blue);
 }
 
+.ls-none{
+  list-style: none;
+}
+
 .grText {
   text-transform: uppercase;
   background: linear-gradient(to right, #83C9F4 0%, #8F79D9 100%);
